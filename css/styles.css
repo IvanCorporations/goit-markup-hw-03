@@ -1,0 +1,158 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+.web{
+    color: #2196F3;
+}
+
+.logo {
+    color: #212121;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--title-text-color)
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color)
+}
+
+/* connection */
+.connection {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.connection:hover, .connection:focus {
+    color: var(--accent-color) ;
+}
+
+/* hero */
+.hero{
+    background: #2F303A;
+    text-align: center;
+}
+
+.hero-title {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    color: #ffffff;
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+}
+
+/* section */
+.work{
+    background: #E5E5E5;
+}
+
+.team{
+    background: #F5F4FA;
+}
+
+.section-title {
+    color: var(--title-text-color);
+    font-style: 400;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.feature-list .title{
+    color: var(--title-text-color);
+    font-style: 400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.feature-list .text{
+    font-style: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.workers .workers-name{
+    color: var(--title-text-color);
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.workers .workers-position{
+    font-style: 400;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    background: #2F303A;
+}
+
+.footer .footer-address{
+    color: #ffffff;
+    font-style: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer .footer-contacts{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
