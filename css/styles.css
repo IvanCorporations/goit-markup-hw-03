@@ -11,6 +11,12 @@
     --secondary-button-text-color: #ffffff;
     --primary-button-bg-color: #F5F4FA;
     --secondary-button-bg-color: #2196F3;
+    --first-part-logo-collor: #2196F3;
+    --second-part-logo-color: #212121;
+    --hero-tittle-color: #ffffff;
+    --hero-bg-color: #2F303A;
+    --footer-bg-color: #2F303A;
+    --footer-address-color: #ffffff;
 }
 
 body {
@@ -24,14 +30,17 @@ body {
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
 
 /* logo */
 .web{
-    color: #2196F3;
+    color: var(--first-part-logo-collor);
 }
 
 .logo {
-    color: #212121;
+    color: var(--second-part-logo-color);
     font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
@@ -71,12 +80,12 @@ body {
 
 /* hero */
 .hero{
-    background: #2F303A;
+    background: var(--hero-bg-color);
     text-align: center;
 }
 
 .hero-title {
-    color: #ffffff;
+    color: var(--hero-tittle-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -96,9 +105,7 @@ body {
 }
 
 /* section */
-.work{
-    background: var(--light-theme-bg-color);
-}
+.work {}
 
 .team{
     background: var(--dark-theme-bg-color);
@@ -173,11 +180,15 @@ body {
 
 /* footer */
 .footer{
-    background: #2F303A;
+    background: var(--footer-bg-color);
+}
+
+.address {
+    font-style: normal;
 }
 
 .footer .footer-address{
-    color: #ffffff;
+    color: var(--footer-address-color);
     line-height: 1.7;
 }
 
