@@ -28,6 +28,8 @@ body {
 }
 
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 .link {
@@ -65,6 +67,14 @@ body {
     color: var(--accent-color)
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    outline: 1px solid blue;
+
+}
+
 /* connection */
 .connection {
     color: var(--primary-text-color);
@@ -82,19 +92,29 @@ body {
 .hero{
     background: var(--hero-bg-color);
     text-align: center;
+
+    outline: 1px solid red;
+
 }
 
 .hero-title {
+    margin-top: 0px;
+    margin-bottom: 30px;
     color: var(--hero-tittle-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 .button {
+    display: inline-block;
+    padding: 10px 32px;
+    min-width: 200px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+
     color: var(--secondary-button-text-color);
     background-color: var(--secondary-button-bg-color);
     font-family: inherit;
@@ -105,13 +125,25 @@ body {
 }
 
 /* section */
-.work {}
+.section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+
+
+    outline: 1px solid blue;
+}
+
+.work{
+}
 
 .team{
     background: var(--dark-theme-bg-color);
 }
 
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -120,6 +152,9 @@ body {
 }
 
 .feature-list .title{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 94px;
     color: var(--title-text-color);
     font-weight: 700;
     line-height: 1.14;
@@ -127,10 +162,22 @@ body {
 }
 
 .feature-list .text{
+    margin-top: 0;
+    margin-bottom: 94px;
     line-height: 1.7;
 }
 
+.image-work{
+    margin-bottom: 94px;
+}
+
+.image-workers{
+    margin-bottom: 30px;
+}
+
 .workers .workers-name{
+    margin-top: 0;
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -139,6 +186,8 @@ body {
 }
 
 .workers .workers-position{
+    margin-top: 0;
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -150,6 +199,13 @@ body {
 }
 
 .button-portfolio{
+    display: inline-block;
+    padding: 6px 22px;
+    min-width: 29px;
+    min-height: 26;
+    text-align: center;
+    border-radius: 6px;
+
     color: var(--primary-button-text-color);
     background-color: var(--primary-button-bg-color);
     font-family: inherit;
@@ -180,7 +236,13 @@ body {
 
 /* footer */
 .footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
     background: var(--footer-bg-color);
+
+
+    outline: 1px solid blue;
 }
 
 .address {
@@ -188,11 +250,14 @@ body {
 }
 
 .footer .footer-address{
+    margin-top: 20px;
+    margin-bottom: 9px;
     color: var(--footer-address-color);
     line-height: 1.7;
 }
 
 .footer .footer-contacts{
+    margin-bottom: 9px;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.7;
 }
